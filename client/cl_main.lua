@@ -1,4 +1,5 @@
 ESX = exports["es_extended"]:getSharedObject()
+
 local PlayerData, Timer, HasAlreadyEnteredMarker, ChoppingInProgress, LastZone, isDead, pedIsTryingToChopVehicle, menuOpen  = {}, 0, false, false, nil, false, false, false
 local CurrentAction, CurrentActionMsg, CurrentActionData, menuOpen, isPlayerWhitelisted  = nil, '', {}, false, false
 local timing = math.ceil(Config.Timer * 60000)
